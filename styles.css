@@ -1,0 +1,617 @@
+header {
+    position: relative;
+    color: (253, 74, 74);
+    top: -60px; /* Mueve el contenedor hacia arriba */
+    display: flex;
+    justify-content: space-between;/*justificar el espacio*/
+    align-items: center;
+    padding: 90px;
+   /* background: rgba(255, 255, 255, 0.521);*/
+}
+.contenedor-logo{
+    position: absolute;
+    margin-left: -60px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin:30px;
+    font-size: 20px;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.login {
+    margin-right: 110px;
+    /*font-weight: bold;*/
+    text-decoration: none; /* Quitar subrayado */
+    color: black;
+    transform: scale(0.15);
+    
+    
+   
+    
+}
+
+
+.buttons-login {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 80px;
+    color: black
+    
+    
+}
+.btn-book-demo {
+    position: absolute;
+    background: #00ff99;
+    border: none;
+    padding: 3px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -90px;
+    margin-top: -20px;
+}
+.btn-book-demo svg{
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+
+h1 {
+    font-size: 60px;
+    
+    /*font-weight: normal;*/
+    text-align: left;
+    margin:40px;
+    font-weight: 800; /* Semibold */
+    font-weight: 500; /* Medium */
+    margin-top: -70px; 
+    background-color: white;
+    
+}
+
+
+.sombreado {
+    
+    font-size: 60px;
+    background-color: #c8ffd4;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+.sombreado g{
+    margin:10px;
+}
+
+.g {
+    margin:-9px;
+    font-size: 60px;
+    background-color: #c8ffd4;
+    padding: 5px 10px;
+    border-radius: 10px;
+   
+}
+p {
+    margin:40px;
+    font-size:15px
+}
+
+.contenedor-general{
+    position: absolute;
+    width: 10px;  /* Ajusta el ancho de la imagen */
+    height: auto;
+}
+.imagen2{
+   position: absolute;
+    height: auto; /* Mantiene la proporción */
+    width: 140px;  /* Ajusta el ancho de la imagen */
+    margin-left: 335px;
+    margin-top:-50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f5f5f5;  ; /* Fondo gris claro */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    height: 100vh; /* Ocupar toda la altura */
+
+}
+
+.main-container {
+    position: absolute;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background:white ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    
+}
+
+.content {
+    position: relative;
+    top: -180px; /* Mueve el contenedor hacia arriba */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background: white;
+    border-radius: 40px;
+    max-width: 100%; /* Ocupa el 90% del ancho de la pantalla */
+    width: 1200px; /* O un valor fijo */
+    height: 750px; 
+}
+.contenedor:hover {
+    transform: scale(1.02); /* Pequeño zoom */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.texto {
+    
+    flex: 1; /* Ocupa el espacio disponible a la izquierda */
+    margin-top: -160px;
+}
+
+.imagen-container {
+    position: absolute;
+    left: 65px;
+    width: 50%; 
+    margin-top: -300px;
+    
+    transform: scale(0.99); /* Reduce la imagen */
+
+    position: relative;
+    display: inline-block;
+    overflow: hidden; /* Evita que sobresalga la imagen */
+    border-radius: 50px; /* Bordes generales */
+   /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 80% 80%, 80% 100%, 0% 100%);*/
+    
+
+    
+}
+.imagen {
+    
+    width: 50%;  /* Reduce el ancho al 50% del contenedor */
+    height: auto; /* Mantiene la proporción */
+    
+    
+}
+
+
+
+.button {
+    position: absolute;
+    background: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn1 {
+    display: flex;            /* Activa flexbox */
+    align-items: center;      /* Centra verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    margin-top:20px;
+    top: 10px;
+    left: 5px;
+    font-weight: 500;
+    /*font-weight: bold; */
+    font-size: 17px !important;
+    margin-left:9px;
+    gap: 10px;
+}
+svg {
+    width: 20px;
+    height: 20px;
+    stroke: black;
+    stroke-width: 2.3;/*agregar poco a poco la negrita*/
+    fill: none;
+}
+
+.btn2 {
+    display: flex;            /* Activa flexbox */
+    align-items: center;      /* Centra verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    margin-top: 20px;
+    top: 10px;
+    left: 4px;
+    font-weight: 500; 
+    font-size: 17px !important;
+    margin-left:130px;
+    gap: 10px;
+    
+
+}
+.btn2 svg{
+    font-weight: bold;
+    stroke-width: 2.3;
+    font-size: 24px;
+    stroke-width: 2.3;
+}
+
+.btn3 {
+    position: absolute;
+    bottom: 10px;
+    background: #00ff99;
+    color: black;
+    display: flex;
+    background-color: #00FF66; /* Verde neón */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    left: 327px;
+    
+
+}
+.btn3 svg {
+    width: 28px;
+    height: 20px;
+    fill: black; /* Color negro */
+    margin-left: 9px;
+}
+
+.guide{
+    position: absolute;
+   top: 430px;
+   margin-left: 40px;
+   width: 540px;
+}
+
+.green{
+    position: absolute;
+    top: 500px;
+    margin-left: 590px;
+    width: 290px;
+}
+
+.adrien{
+    position: absolute;
+    top: 500px;
+    margin-left:889px;
+    width:290px;
+
+}
+
+.logos {
+    display: flex;               /* Alineación horizontal */
+    justify-content: space-between; /* Espacio igual entre los logos */
+    align-items: center;         /* Centrar verticalmente */
+    padding: 40px;              /* Espaciado interno */
+    background: #f5f5f5;          /* Fondo gris claro */
+    border-radius: 20px;         /* Bordes redondeados */
+    gap: 160px;                  /* Espacio entre los logos */
+    top: 850px;
+    position: absolute;
+   
+  }
+  
+  .spotify-con-imagen{
+    font-family: Arial, sans-serif; /* Fuente similar */
+    font-size: 24px;               /* Tamaño de letra */
+    color: #737373;                /* Color gris */
+    text-transform: capitalize;     /* Primera letra mayúscula */
+    filter: grayscale(100%);        /* Blanco y negro */
+    transition: filter 0.3s ease;    /* Efecto suave */
+    top:-auto;
+    display: flex;
+    align-items: center; /* ← ESTO alinea verticalmente imagen y texto al centro */
+    gap: 10px; /* espacio entre imagen y texto */
+    
+  }
+  .logo-spoty{
+
+    width: 24px;
+  height: 24px;
+  display: block; /* asegura que no se comporte como inline y afecte la alineación */
+  margin: 0; /* quita márgenes accidentales */
+  padding: 0;
+  position: relative;
+  
+  }
+  
+  .logo:hover {
+    filter: grayscale(0%);          /* Vuelve a color al pasar el mouse */
+    color: black;                   /* Cambia a negro */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Product+Sans:wght@400&display=swap');
+.logogogle{
+    font-family: "Georgia", serif;  /* Tipografía muy parecida */
+    font-size: 30px;               /* Tamaño del texto */
+    color: #999;                   /* Color gris claro */
+    font-weight: normal;           /* Letra delgada */
+    letter-spacing: 1px;           /* Espaciado entre letras */
+    filter: grayscale(100%);       /* Blanco y negro */
+    transition: filter 0.3s ease;  /* Efecto suave */       
+    position:relative;
+    margin-left:600;
+  }
+  
+  
+.logofedex{
+    font-family: "Arial Black", sans-serif; /* Tipografía similar */
+  font-size: 40px;               /* Tamaño del texto */
+  color: #999;                   /* Gris claro */
+  filter: grayscale(100%);       /* Blanco y negro */
+  transition: filter 0.3s ease;   /* Efecto suave */
+  
+}
+
+.logomicro{
+    font-family: 'Segoe UI', sans-serif; /* Tipografía oficial de Microsoft */
+    font-size: 25px;                    /* Tamaño del texto */
+    color: #999;                        /* Gris claro */
+    font-weight: 500;                   /* Grosor del texto */
+    letter-spacing: 1px;                /* Espaciado entre letras */
+    filter: grayscale(100%);            /* Blanco y negro */
+    transition: filter 0.3s ease;       /* Efecto suave */
+}
+.logoMcafee{
+    font-family: Arial, sans-serif; /* Fuente similar */
+    font-size: 24px;               /* Tamaño de letra */
+    color: #737373;                /* Color gris */
+    text-transform: capitalize;     /* Primera letra mayúscula */
+    filter: grayscale(100%);        /* Blanco y negro */
+    transition: filter 0.3s ease; 
+    top:-auto;
+    display: flex;
+  align-items: center; /* ← ESTO alinea verticalmente imagen y texto al centro */
+  gap: 10px; /* espacio entre imagen y texto */
+}
+.logo-mcafee{
+    width: 24px;
+    height: 24px;
+    display: block; /* asegura que no se comporte como inline y afecte la alineación */
+    margin: 0; /* quita márgenes accidentales */
+    padding: 0;
+}
+
+
+.contenedor-segundo{
+    position: relative;
+    top: -58px; /* Mueve el contenedor hacia arriba */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background: white;
+    border-radius: 40px;
+    max-width: 100%; /* Ocupa el 90% del ancho de la pantalla */
+    width: 1200px; /* O un valor fijo */
+    height: 900px; 
+    display: flex;
+}
+.texto2 {
+    
+    flex: 1; /* Ocupa el espacio disponible a la izquierda */
+    margin-top: -390px;
+}
+
+h2{
+    font-size: 60px;
+    
+    /*font-weight: normal;*/
+    text-align: left;
+    margin:40px;
+    font-weight: 800; /* Semibold */
+    font-weight: 500; /* Medium */
+    margin-top: 10px; 
+    background-color: white;
+    position:relative
+}
+
+.sombreado2 {
+    
+    font-size: 60px;
+    background-color: #c8ffd4;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+.sombreado2 .z{
+    margin:10px;
+}
+
+.z {
+    margin:-9px;
+    font-size: 60px;
+    background-color: #c8ffd4;
+    padding: 5px 10px;
+    border-radius: 10px;
+   
+}
+
+.contenedor-imagen-pequeña2{
+    position: absolute;
+    width: 10px;  /* Ajusta el ancho de la imagen */
+    height: auto;
+}
+.imagen3{
+   position: absolute;
+    height: auto; /* Mantiene la proporción */
+    width: 140px;  /* Ajusta el ancho de la imagen */
+    margin-left: 335px;
+    margin-top:-50px;
+}
+
+p {
+    margin:40px;
+    font-size:16px
+}
+
+
+.james{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -340px;
+}
+.centralize{
+    position: absolute;
+    margin-left:600px ;
+    margin-top: 130px;
+}
+.gain{
+    position:absolute ;
+    margin-left: 890px;
+    margin-top: 10px;
+}
+.alwais{
+position: absolute;
+margin-left: 890px;
+margin-top: -345px;
+}
+.automate{
+    position: absolute;
+}
+
+.contenedor-tercero{
+  background-color: #ffffff;
+  width: 400px;
+  padding: 30px;
+  border-radius: 40px; /* 👈 curva en la esquina superior derecha */
+
+  position: absolute;
+  width: 1120px; /* O un valor fijo */
+  height: 830px;
+  top:900px;
+
+  padding: 40px;
+  text-align: center;
+  margin-top: 2cm; /* 👈 ESTA LÍNEA es la separación del primero */
+}
+.contenedorcito{
+    position :absolute;
+    margin-top: -90px;
+    margin-left: -55px;
+
+}
+.texto3{
+    position: absolute;
+    float: right;
+    margin-right: 20px;
+    top: 90px;
+}
+.rotarbot{
+    position: absolute;
+    float: right;
+    margin-right: 0px;
+    margin-left:-120px ;
+    top: 350px;
+
+}
+.engage{
+    position:absolute;
+    margin-left:-600px ;
+    top: 350px;
+
+}
+
+.contenedor-cuarto{
+    display: flex;               /* Alineación horizontal */
+    justify-content: space-between; /* Espacio igual entre los logos */
+    align-items: center;         /* Centrar verticalmente */
+    padding: 40px;              /* Espaciado interno */
+    background: #f5f5f5;          /* Fondo gris claro */
+    border-radius: 20px;         /* Bordes redondeados */
+    gap: 160px;                  /* Espacio entre los logos */
+    top: 1000px;
+    margin-left: -50px;
+    position: absolute;
+
+
+}
+
+.usetemplade{
+
+}
+
+.greathappy{
+    position: absolute;
+    margin-left:520px ;
+    margin-top: -70px;
+}
+.contenedor-quinto{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 40px; /* 👈 curva en la esquina superior derecha */
+  
+    position: absolute;
+    width: 1145px; /* O un valor fijo */
+    height: 700px;
+    top:1450px;
+    left: -10px;
+  
+    padding: 40px;
+    text-align: center;
+    margin-top: 2cm; /* 👈 ESTA LÍNEA es la separación del primero */
+  
+}
+
+.whattop{
+    margin-left: -440px;
+}
+.jointhe{
+    position: absolute;
+    margin-left:10px ;
+    margin-top: -53px;
+}
+.messi{
+    position:absolute;
+    margin-left:-760px ;
+    top: 210px;
+}
+.amazed{
+    position: absolute;
+    margin-left:-265px ;
+    margin-top: 200px;
+}
+
+.contenedor-sexto{
+    border-radius: 40px; /* 👈 curva en la esquina superior derecha */
+  
+    position: absolute;
+    width: 1145px; /* O un valor fijo */
+    height: 700px;
+    top:1450px;
+    left: -10px;
+  
+    padding: 40px;
+    text-align: center;
+    margin-top: 2cm; /* 👈 ESTA LÍNEA es la separación del primero */
+  
+}
